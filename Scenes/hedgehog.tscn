@@ -1,0 +1,58 @@
+[gd_scene load_steps=8 format=3 uid="uid://opevh4x3hcox"]
+
+[ext_resource type="Texture2D" uid="uid://cwikr3qlkyf4g" path="res://Assets/Character Sprites/Hedgehog Sprite Sheet.png" id="1_lav1p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0fj31"]
+atlas = ExtResource("1_lav1p")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rn1qv"]
+atlas = ExtResource("1_lav1p")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g5uw5"]
+atlas = ExtResource("1_lav1p")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cvn57"]
+atlas = ExtResource("1_lav1p")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o3pyk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0fj31")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rn1qv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g5uw5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cvn57")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ewrhp"]
+radius = 20.0
+height = 68.0
+
+[node name="Hedgehog" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_o3pyk")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.712631
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 45)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_ewrhp")

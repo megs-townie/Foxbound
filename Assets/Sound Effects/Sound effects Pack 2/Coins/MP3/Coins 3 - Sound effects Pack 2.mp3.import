@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://caktn56er7u7t"
+path="res://.godot/imported/Coins 3 - Sound effects Pack 2.mp3-8e243cd54841e4148c9cd53b293eba2a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Sound effects Pack 2/Coins/MP3/Coins 3 - Sound effects Pack 2.mp3"
+dest_files=["res://.godot/imported/Coins 3 - Sound effects Pack 2.mp3-8e243cd54841e4148c9cd53b293eba2a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

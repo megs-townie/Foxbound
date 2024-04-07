@@ -1,0 +1,66 @@
+[gd_scene load_steps=9 format=3 uid="uid://bovr6ftrofhik"]
+
+[ext_resource type="Texture2D" uid="uid://cstvjv8melpdk" path="res://Assets/Character Sprites/Porcupine Sprite Sheet.png" id="1_8flgh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4w1e4"]
+atlas = ExtResource("1_8flgh")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e5qua"]
+atlas = ExtResource("1_8flgh")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wpsvf"]
+atlas = ExtResource("1_8flgh")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_twf7k"]
+atlas = ExtResource("1_8flgh")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hufaq"]
+atlas = ExtResource("1_8flgh")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rstpo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4w1e4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e5qua")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wpsvf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_twf7k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hufaq")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5tn8h"]
+radius = 24.0087
+height = 92.168
+
+[node name="Porcupine" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_rstpo")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.635497
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(5, 35)
+rotation = 0.837758
+shape = SubResource("CapsuleShape2D_5tn8h")

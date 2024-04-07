@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://xnjhyio53p7p"
+path="res://.godot/imported/Powerup 10 - Sound effects Pack 2.ogg-ad3b084bed48141dc289cb818a1f98ba.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Sound effects Pack 2/Power-up/OGG/Powerup 10 - Sound effects Pack 2.ogg"
+dest_files=["res://.godot/imported/Powerup 10 - Sound effects Pack 2.ogg-ad3b084bed48141dc289cb818a1f98ba.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

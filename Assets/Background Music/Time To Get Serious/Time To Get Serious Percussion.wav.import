@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://de8vfhxpbdbmv"
+path="res://.godot/imported/Time To Get Serious Percussion.wav-b790645f86706cba679f0e4475190375.sample"
+
+[deps]
+
+source_file="res://Assets/Background Music/Time To Get Serious/Time To Get Serious Percussion.wav"
+dest_files=["res://.godot/imported/Time To Get Serious Percussion.wav-b790645f86706cba679f0e4475190375.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

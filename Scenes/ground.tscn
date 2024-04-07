@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dofxhlhy42fhd"]
+
+[ext_resource type="Texture2D" uid="uid://cgptya6lwc7at" path="res://Assets/Background/PNG/Cartoon_Forest_BG_01/Layers/ground.png" id="1_b6qrw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ddoik"]
+size = Vector2(2304, 88)
+
+[node name="Ground" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 552)
+texture = ExtResource("1_b6qrw")
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1152, 604)
+shape = SubResource("RectangleShape2D_ddoik")

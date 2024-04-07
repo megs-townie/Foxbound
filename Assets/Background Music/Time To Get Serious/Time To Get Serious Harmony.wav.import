@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b64fbjcpqu6v5"
+path="res://.godot/imported/Time To Get Serious Harmony.wav-3e52a20073d3190f426df60fa74ea6d1.sample"
+
+[deps]
+
+source_file="res://Assets/Background Music/Time To Get Serious/Time To Get Serious Harmony.wav"
+dest_files=["res://.godot/imported/Time To Get Serious Harmony.wav-3e52a20073d3190f426df60fa74ea6d1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dcsbwithgtc54"
+path="res://.godot/imported/Jump 6 - Sound effects Pack 2.ogg-2a9178abc439a48d780bd98f6edc560c.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Sound effects Pack 2/Jump/OGG/Jump 6 - Sound effects Pack 2.ogg"
+dest_files=["res://.godot/imported/Jump 6 - Sound effects Pack 2.ogg-2a9178abc439a48d780bd98f6edc560c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

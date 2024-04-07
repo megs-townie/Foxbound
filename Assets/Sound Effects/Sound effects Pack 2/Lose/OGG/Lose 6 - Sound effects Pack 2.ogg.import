@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://beq4pedne5c6m"
+path="res://.godot/imported/Lose 6 - Sound effects Pack 2.ogg-58595a15023d38d2580a8682d202f946.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Sound effects Pack 2/Lose/OGG/Lose 6 - Sound effects Pack 2.ogg"
+dest_files=["res://.godot/imported/Lose 6 - Sound effects Pack 2.ogg-58595a15023d38d2580a8682d202f946.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

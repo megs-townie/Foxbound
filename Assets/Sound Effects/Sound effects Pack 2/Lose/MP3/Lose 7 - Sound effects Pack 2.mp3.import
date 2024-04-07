@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmypo4gaq2euh"
+path="res://.godot/imported/Lose 7 - Sound effects Pack 2.mp3-841715472af8d1a25cf80133f9d8d0f0.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Sound effects Pack 2/Lose/MP3/Lose 7 - Sound effects Pack 2.mp3"
+dest_files=["res://.godot/imported/Lose 7 - Sound effects Pack 2.mp3-841715472af8d1a25cf80133f9d8d0f0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

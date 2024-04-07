@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d3mxenmdvg2ef"
+path="res://.godot/imported/Laser-weapon 2 - Sound effects Pack 2.mp3-d9818c8c0d567286cbb1db3c1a0c33ef.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Sound effects Pack 2/Laser-weapon/MP3/Laser-weapon 2 - Sound effects Pack 2.mp3"
+dest_files=["res://.godot/imported/Laser-weapon 2 - Sound effects Pack 2.mp3-d9818c8c0d567286cbb1db3c1a0c33ef.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

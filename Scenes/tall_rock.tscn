@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://kcylg16i5cxl"]
+
+[ext_resource type="Texture2D" uid="uid://bd7dsj1lfnifu" path="res://Assets/Objects/TallRock.png" id="1_ev46f"]
+
+[node name="TallRock" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(2, 2)
+texture = ExtResource("1_ev46f")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+scale = Vector2(2, 2)
+polygon = PackedVector2Array(13.25, -9.25, 15.5, 15.5, -15.5, 15.5, -12, 2.25, -5.75, -13.25, -0.5, -15.5, 6.5, -15.5)

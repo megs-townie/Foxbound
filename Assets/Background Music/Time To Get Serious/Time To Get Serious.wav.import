@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dpayuctcswtda"
+path="res://.godot/imported/Time To Get Serious.wav-ed4e9af9c9498736287801813cfc357d.sample"
+
+[deps]
+
+source_file="res://Assets/Background Music/Time To Get Serious/Time To Get Serious.wav"
+dest_files=["res://.godot/imported/Time To Get Serious.wav-ed4e9af9c9498736287801813cfc357d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

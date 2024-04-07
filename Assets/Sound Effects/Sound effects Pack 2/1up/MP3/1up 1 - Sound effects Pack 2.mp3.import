@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b6hiruga10qwa"
+path="res://.godot/imported/1up 1 - Sound effects Pack 2.mp3-135f1163d862fb3095f3f3279eed9a7f.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Sound effects Pack 2/1up/MP3/1up 1 - Sound effects Pack 2.mp3"
+dest_files=["res://.godot/imported/1up 1 - Sound effects Pack 2.mp3-135f1163d862fb3095f3f3279eed9a7f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

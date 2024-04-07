@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d3kgv2o28fbpj"
+path="res://.godot/imported/Explosion 4 - Sound effects Pack 2.wav-1dfc85562cde5bc46a2bf17a21f17aff.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Sound effects Pack 2/Explosions/WAV/Explosion 4 - Sound effects Pack 2.wav"
+dest_files=["res://.godot/imported/Explosion 4 - Sound effects Pack 2.wav-1dfc85562cde5bc46a2bf17a21f17aff.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bg3gsh556jrog"
+path="res://.godot/imported/Teleport 8 - Sound effects Pack 2.mp3-25f0d7241afbe994c45d27c151f9f18a.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Sound effects Pack 2/Teleport/MP3/Teleport 8 - Sound effects Pack 2.mp3"
+dest_files=["res://.godot/imported/Teleport 8 - Sound effects Pack 2.mp3-25f0d7241afbe994c45d27c151f9f18a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

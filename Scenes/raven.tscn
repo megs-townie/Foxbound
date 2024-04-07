@@ -1,0 +1,66 @@
+[gd_scene load_steps=10 format=3 uid="uid://8soriq0chyqt"]
+
+[ext_resource type="Texture2D" uid="uid://ckkqtws1xbu0q" path="res://Assets/Character Sprites/Raven_Sprite_Sheet.png" id="1_44jou"]
+[ext_resource type="Script" path="res://Scenes/raven.gd" id="1_v8cgu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hls65"]
+atlas = ExtResource("1_44jou")
+region = Rect2(0, 160, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ye7jn"]
+atlas = ExtResource("1_44jou")
+region = Rect2(32, 160, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrilx"]
+atlas = ExtResource("1_44jou")
+region = Rect2(64, 160, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1s457"]
+atlas = ExtResource("1_44jou")
+region = Rect2(96, 160, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5unsr"]
+atlas = ExtResource("1_44jou")
+region = Rect2(128, 160, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1klgo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hls65")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ye7jn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrilx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1s457")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5unsr")
+}],
+"loop": true,
+"name": &"flying",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lg8j2"]
+radius = 28.6356
+
+[node name="Raven" type="Area2D"]
+script = ExtResource("1_v8cgu")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_1klgo")
+animation = &"flying"
+autoplay = "flying"
+frame_progress = 0.459625
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(6, 4)
+shape = SubResource("CircleShape2D_lg8j2")

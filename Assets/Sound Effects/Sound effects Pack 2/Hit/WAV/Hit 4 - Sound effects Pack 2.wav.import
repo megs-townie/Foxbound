@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnpkvx1kbbjw6"
+path="res://.godot/imported/Hit 4 - Sound effects Pack 2.wav-2e7f810b8438384f24cd750ea62ae756.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Sound effects Pack 2/Hit/WAV/Hit 4 - Sound effects Pack 2.wav"
+dest_files=["res://.godot/imported/Hit 4 - Sound effects Pack 2.wav-2e7f810b8438384f24cd750ea62ae756.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

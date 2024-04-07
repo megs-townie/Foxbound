@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cjm241h4k7pv8"
+path="res://.godot/imported/Laser-weapon 7 - Sound effects Pack 2.wav-962f4fa59ae63a09c5ac35806073e399.sample"
+
+[deps]
+
+source_file="res://Assets/Sound Effects/Sound effects Pack 2/Laser-weapon/WAV/Laser-weapon 7 - Sound effects Pack 2.wav"
+dest_files=["res://.godot/imported/Laser-weapon 7 - Sound effects Pack 2.wav-962f4fa59ae63a09c5ac35806073e399.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
