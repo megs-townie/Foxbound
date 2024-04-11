@@ -36,7 +36,7 @@ var ground_height : int
 var game_running : bool
 var last_obs
 
-var URL = "https://quantum-arcade.com/psp/addscore.php"
+var URL = "https://quantum-arcade.com/php/addScore.php"
 var dict = {}
 var gameID = 3
 var userID: int = 1 :
@@ -46,7 +46,7 @@ var userID: int = 1 :
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	http_request.request("http://localhost/quantum-arcade/php/api.php")	
+	http_request.request("https://quantum-arcade/php/api.php")	
 	screen_size = get_window().size
 	ground_height = $Ground.get_node("Sprite2D").texture.get_height()
 	$GameOver.get_node("Button").pressed.connect(new_game)

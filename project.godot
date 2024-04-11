@@ -16,6 +16,7 @@ config/features=PackedStringArray("4.2", "GL Compatibility")
 
 [display]
 
+window/stretch/mode="viewport"
 window/vsync/vsync_mode=2
 
 [editor_plugins]
