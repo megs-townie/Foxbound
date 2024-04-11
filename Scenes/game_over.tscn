@@ -1,0 +1,59 @@
+[gd_scene load_steps=5 format=3 uid="uid://dduia4dvarrjn"]
+
+[ext_resource type="FontFile" uid="uid://cng2j53g7d32e" path="res://Assets/Fonts/Schoolbell-Regular.ttf" id="1_78n30"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eeaq3"]
+bg_color = Color(0.85098, 0.65098, 0.537255, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ay4jy"]
+bg_color = Color(0.74902, 0.305882, 0.141176, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_syudc"]
+bg_color = Color(0.74902, 0.305882, 0.141176, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[node name="GameOver" type="CanvasLayer"]
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.596
+anchor_right = 0.5
+anchor_bottom = 0.596
+offset_left = -126.0
+offset_top = -34.208
+offset_right = 129.0
+offset_bottom = 34.792
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_78n30")
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_eeaq3")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ay4jy")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_syudc")
+text = "RESTART"
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -328.0
+offset_top = -132.0
+offset_right = 320.0
+offset_bottom = 75.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.866667, 0.380392, 0.160784, 1)
+theme_override_fonts/font = ExtResource("1_78n30")
+theme_override_font_sizes/font_size = 150
+text = "Game Over"

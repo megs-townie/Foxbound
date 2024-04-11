@@ -1,22 +1,41 @@
-[gd_scene load_steps=6 format=3 uid="uid://ew7eq1n0g4df"]
+[gd_scene load_steps=9 format=3 uid="uid://ew7eq1n0g4df"]
 
 [ext_resource type="Script" path="res://Scenes/main.gd" id="1_30f1h"]
 [ext_resource type="PackedScene" uid="uid://dbexijacs5dwr" path="res://Scenes/bg.tscn" id="1_v8cji"]
 [ext_resource type="PackedScene" uid="uid://dofxhlhy42fhd" path="res://Scenes/ground.tscn" id="2_qs7bd"]
 [ext_resource type="PackedScene" uid="uid://dybjfhkrmwsbp" path="res://Scenes/fox.tscn" id="3_6nbfs"]
 [ext_resource type="PackedScene" uid="uid://cq3jn8ibpttbm" path="res://Scenes/hud.tscn" id="5_7nm4w"]
+[ext_resource type="PackedScene" uid="uid://dduia4dvarrjn" path="res://Scenes/game_over.tscn" id="6_me7w5"]
+[ext_resource type="AudioStream" uid="uid://1g5gpbl4ni1i" path="res://Assets/Background Music/Foxbound_maintheme.wav" id="7_pfhfn"]
+[ext_resource type="AudioStream" uid="uid://tm6m8k5h2pwl" path="res://Assets/Background Music/No Hope.wav" id="8_85f3o"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_30f1h")
 
 [node name="Bg" parent="." instance=ExtResource("1_v8cji")]
 
-[node name="Ground" parent="." instance=ExtResource("2_qs7bd")]
-
 [node name="Fox" parent="." instance=ExtResource("3_6nbfs")]
 position = Vector2(125, 466)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(576, 324)
+position_smoothing_speed = 15.0
+
+[node name="Ground" parent="." instance=ExtResource("2_qs7bd")]
+position = Vector2(0, -3.05176e-05)
 
 [node name="HUD" parent="." instance=ExtResource("5_7nm4w")]
+
+[node name="GameOver" parent="." instance=ExtResource("6_me7w5")]
+process_mode = 2
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[node name="Foxbound_maintheme" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_pfhfn")
+volume_db = -20.0
+autoplay = true
+
+[node name="GameOver_Theme" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_85f3o")
+volume_db = -20.0

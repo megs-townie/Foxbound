@@ -248,8 +248,8 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_3lcfg"]
-size = Vector2(23.3333, 48.3333)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_amdd5"]
+height = 52.3334
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gcvv1"]
 radius = 7.71207
@@ -269,12 +269,12 @@ frame = 5
 frame_progress = 0.439546
 
 [node name="RunCol" type="CollisionShape2D" parent="."]
-position = Vector2(5.16667, 18.3333)
+position = Vector2(7.33333, 17.6667)
 rotation = 1.5708
-shape = SubResource("RectangleShape2D_3lcfg")
+shape = SubResource("CapsuleShape2D_amdd5")
 
 [node name="JumpCol" type="CollisionShape2D" parent="."]
-position = Vector2(-4.76837e-07, 6.66667)
+position = Vector2(1.33333, 6)
 rotation = 0.71733
 shape = SubResource("CapsuleShape2D_gcvv1")
 
